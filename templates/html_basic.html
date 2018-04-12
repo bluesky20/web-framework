@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>留言板</title>
+    </head>
+    <body>
+        <form action="/messages" method="post">
+            <textarea name="message" rows="8" cols="40"></textarea>
+            <textarea name="author" rows="8" cols="40"></textarea>
+            <button>提交留言</button>
+        </form>
+    {{messages}}
+    </body>
+</html>
